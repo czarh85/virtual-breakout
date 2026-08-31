@@ -1,0 +1,116 @@
+[
+ {
+  "cle": "TitleTheme",
+  "titre": "Title Theme",
+  "sous": "The title screen",
+  "fichier": "title-theme.mp3",
+  "secondes": 81.92,
+  "octets": 1967376,
+  "voix": 2,
+  "approchees": [
+   "glocken"
+  ],
+  "rms": 12085.816928925926,
+  "niveaux": 4
+ },
+ {
+  "cle": "ArmoryTheme",
+  "titre": "Armory Theme",
+  "sous": "The menu",
+  "fichier": "armory-theme.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 2,
+  "approchees": [],
+  "rms": 15598.276900232242,
+  "niveaux": 5
+ },
+ {
+  "cle": "MainTheme",
+  "titre": "Alpha Sector",
+  "sous": "World 1 -- sectors 1 to 3",
+  "fichier": "alpha-sector.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 2,
+  "approchees": [],
+  "rms": 13310.175195343505,
+  "niveaux": 9
+ },
+ {
+  "cle": "WorldTwoTheme",
+  "titre": "Beta Sector",
+  "sous": "World 2 -- sectors 4 to 6",
+  "fichier": "beta-sector.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 3,
+  "approchees": [
+   "organ"
+  ],
+  "rms": 10415.737769422229,
+  "niveaux": 12
+ },
+ {
+  "cle": "WorldThreeTheme",
+  "titre": "Gamma Sector",
+  "sous": "World 3 -- sectors 7 to 9",
+  "fichier": "gamma-sector.mp3",
+  "secondes": 76.16,
+  "octets": 1829450,
+  "voix": 2,
+  "approchees": [],
+  "rms": 16061.042702736682,
+  "niveaux": 30
+ },
+ {
+  "cle": "WorldFourTheme",
+  "titre": "Omega Sector",
+  "sous": "World 4 -- sectors 10 to 12",
+  "fichier": "omega-sector.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 2,
+  "approchees": [],
+  "rms": 15365.830055193488,
+  "niveaux": 15
+ },
+ {
+  "cle": "BossTheme",
+  "titre": "Guardian",
+  "sous": "The Hunter, the Colossus, the Queen",
+  "fichier": "guardian.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 3,
+  "approchees": [],
+  "rms": 9831.103972257197,
+  "niveaux": 16
+ },
+ {
+  "cle": "FinalBossTheme",
+  "titre": "The Core",
+  "sous": "The final guardian",
+  "fichier": "the-core.mp3",
+  "secondes": 77.44,
+  "octets": 1860170,
+  "voix": 3,
+  "approchees": [],
+  "rms": 10215.566827370923,
+  "niveaux": 41
+ },
+ {
+  "cle": "CreditsTheme",
+  "titre": "Credits",
+  "sous": "After the ending",
+  "fichier": "credits.mp3",
+  "secondes": 86.4,
+  "octets": 2075210,
+  "voix": 2,
+  "approchees": [
+   "glocken"
+  ],
+  "rms": 11579.484485105275,
+  "niveaux": 3
+ }
+]

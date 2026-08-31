@@ -1,0 +1,8 @@
+ALIGNE
+ROM      : 1.0 MB
+manuel   : 35 images
+audit    : manuel_audit.py exit=0
+assets      : 6/6 sondes retrouvees dans la ROM
+
+Ce fichier est lu par publish_site.sh. DESALIGNE interdit la publication :
+le site montrerait un jeu qui n'existe plus.
