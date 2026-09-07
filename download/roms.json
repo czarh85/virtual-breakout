@@ -1,0 +1,16 @@
+[
+  {
+    "version": "V1.04",
+    "fichier": "virtual-breakout.vb",
+    "octets": 2097152,
+    "md5": "9b4473a09ad191c8a8af10344fdc9442",
+    "libelle": "current"
+  },
+  {
+    "version": "V1.0",
+    "fichier": "virtual-breakout-v1.0.vb",
+    "octets": 1048576,
+    "md5": "8117cb372d0a9fdbafdfa3b4fa685ddd",
+    "libelle": "previous release"
+  }
+]
