@@ -1,6 +1,6 @@
 ALIGNE
 ROM      : 2.0 MB
-manuel   : 35 images
+manuel   : 39 images
 audit    : manuel_audit.py exit=0
 assets      : 6/6 sondes retrouvees dans la ROM
 

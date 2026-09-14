@@ -321,14 +321,14 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
 
 <section><div class="narrow">
   <h2><span class="num">01</span>The record</h2>
-  <p>Virtual Breakout was built between <strong>2026-04-29</strong> and <strong>2026-09-07</strong>:
-  four months on the calendar, <strong>33 days</strong> of actual work.</p>
+  <p>Virtual Breakout was built between <strong>2026-04-29</strong> and <strong>2026-09-14</strong>:
+  four months on the calendar, <strong>39 days</strong> of actual work.</p>
   <div class="releve">
-    <p class="titre">Measured from the session logs &middot; 2026-09-07</p>
-    <div class="grille"><div class="mesure"><span class="val">1,579</span><span class="lib">prompts written by a person</span></div><div class="mesure"><span class="val">74,029</span><span class="lib">words in those prompts</span></div><div class="mesure"><span class="val">57,614</span><span class="lib">machine replies</span></div><div class="mesure"><span class="val">29,852</span><span class="lib">tool calls</span></div><div class="mesure"><span class="val">273 h</span><span class="lib">of measured session time</span></div><div class="mesure"><span class="val">1,370</span><span class="lib">commits</span></div></div>
+    <p class="titre">Measured from the session logs &middot; 2026-09-14</p>
+    <div class="grille"><div class="mesure"><span class="val">1,875</span><span class="lib">prompts written by a person</span></div><div class="mesure"><span class="val">81,092</span><span class="lib">words in those prompts</span></div><div class="mesure"><span class="val">68,769</span><span class="lib">machine replies</span></div><div class="mesure"><span class="val">35,472</span><span class="lib">tool calls</span></div><div class="mesure"><span class="val">318 h</span><span class="lib">of measured session time</span></div><div class="mesure"><span class="val">1,614</span><span class="lib">commits</span></div></div>
   </div>
   <p>Seventy thousand words is a short novel, typed one instruction at a time. Each
-  of those instructions drew an average of <strong>36 replies</strong> and
+  of those instructions drew an average of <strong>37 replies</strong> and
   <strong>19 tool calls</strong> before the next one was written. The session hours
   are the sum of the gaps shorter than ten minutes between consecutive events &mdash;
   time when somebody was demonstrably at the keyboard, not time the machine spent
@@ -344,22 +344,22 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
     <h2><span class="num">02</span>Where the work actually went</h2>
     <p>This is the part that surprises people, and it is the whole argument of the
     page. Every shell command in the record was classified by what it ran. All
-    <strong>20,905</strong> of them:</p>
+    <strong>24,844</strong> of them:</p>
   </div>
-  <div class="barre" role="img" aria-label="Share of 20,905 shell commands: capture 20
-    percent, verification 23, builds 8, assets 7, other 39"><span style="width:20.48%;background:var(--vif)"></span><span style="width:23.20%;background:#aa1f10"></span><span style="width:8.45%;background:var(--blanc)"></span><span style="width:6.75%;background:#6b1408"></span><span style="width:1.95%;background:#3a0d0d"></span><span style="width:0.48%;background:var(--titre)"></span><span style="width:38.68%;background:#120404"></span></div>
-  <div class="legende"><div><i style="background:var(--vif)"></i>Capture &amp; play sessions <b>4,281</b></div><div><i style="background:#aa1f10"></i>Automated verification <b>4,851</b></div><div><i style="background:var(--blanc)"></i>Builds <b>1,767</b></div><div><i style="background:#6b1408"></i>Asset generation <b>1,411</b></div><div><i style="background:#3a0d0d"></i>Version control <b>408</b></div><div><i style="background:var(--titre)"></i>Sends to the console <b>100</b></div><div><i style="background:#120404"></i>Reading, measuring, other <b>8,087</b></div></div>
+  <div class="barre" role="img" aria-label="Share of 24,844 shell commands: capture 20
+    percent, verification 25, builds 9, assets 7, other 38"><span style="width:19.97%;background:var(--vif)"></span><span style="width:24.50%;background:#aa1f10"></span><span style="width:8.51%;background:var(--blanc)"></span><span style="width:6.60%;background:#6b1408"></span><span style="width:1.86%;background:#3a0d0d"></span><span style="width:0.47%;background:var(--titre)"></span><span style="width:38.09%;background:#120404"></span></div>
+  <div class="legende"><div><i style="background:var(--vif)"></i>Capture &amp; play sessions <b>4,962</b></div><div><i style="background:#aa1f10"></i>Automated verification <b>6,087</b></div><div><i style="background:var(--blanc)"></i>Builds <b>2,113</b></div><div><i style="background:#6b1408"></i>Asset generation <b>1,640</b></div><div><i style="background:#3a0d0d"></i>Version control <b>461</b></div><div><i style="background:var(--titre)"></i>Sends to the console <b>118</b></div><div><i style="background:#120404"></i>Reading, measuring, other <b>9,463</b></div></div>
   <div class="narrow" style="padding:0">
     <p class="appui">For every command that built the game, 5 checked it.</p>
-    <p>Checking took <strong>9,132 commands</strong> against <strong>1,767</strong> that
-    compiled it. That ratio produced <strong>69,351 screenshots</strong> across
-    <strong>1,142 capture campaigns</strong>, audited by <strong>70 purpose-built
+    <p>Checking took <strong>11,049 commands</strong> against <strong>2,113</strong> that
+    compiled it. That ratio produced <strong>77,790 screenshots</strong> across
+    <strong>1,201 capture campaigns</strong>, audited by <strong>75 purpose-built
     verification tools</strong> &mdash; programs that compare a frame against declared
     zones, refuse a series in which every image is identical, and fail a build whose
     sprite budget has crept past what the hardware allows.</p>
     <p>This is the capability that changed. Not typing speed. One person can run a
-    capture campaign; one person cannot run <strong>1,142</strong> of them and hold
-    69,351 frames to a written standard. The screenshots are the part that does not
+    capture campaign; one person cannot run <strong>1,201</strong> of them and hold
+    77,790 frames to a written standard. The screenshots are the part that does not
     scale by hand.</p>
   </div>
 </div></section>
@@ -367,9 +367,9 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
 <section><div class="narrow">
   <h2><span class="num">03</span>Seven roles that refuse each other's work</h2>
   <p>The machine does not work as one assistant. It works as seven, each defined by a
-  written brief &mdash; <strong>3,948 lines</strong> of instructions accumulated over the
+  written brief &mdash; <strong>4,010 lines</strong> of instructions accumulated over the
   project &mdash; and each one <em>refuses</em> the others' jobs.</p>
-  <div class="roles"><div class="role"><span class="nom">Architect<em>1,739 lines</em></span><span class="fait">Writes a numbered plan: budgets, geometry, state machine, depth layout.<span class="refus">Edits no source file. Ever.</span></span></div><div class="role"><span class="nom">Coder<em>848 lines</em></span><span class="fait">Implements that plan one step at a time, building between each.<span class="refus">With no plan, sends the work back to the architect.</span></span></div><div class="role"><span class="nom">Tester<em>320 lines</em></span><span class="fait">Measures, then <em>looks</em> at magnified sprites and captures, and returns PASS / FAIL / NOT OBSERVED.<span class="refus">Fixes nothing. Judge and defendant do not mix.</span></span></div><div class="role"><span class="nom">Loop<em>819 lines</em></span><span class="fait">Runs the four others in sequence, unsupervised, for N passes.<span class="refus">Stops and hands back rather than decide what the game should be.</span></span></div><div class="role"><span class="nom">Build<em>69 lines</em></span><span class="fait">The one canonical way to compile, plus the known failures and their fixes.</span></div><div class="role"><span class="nom">Flash<em>105 lines</em></span><span class="fait">Sends the ROM to the cartridge over USB.<span class="refus">Refuses without a passing verdict newer than the ROM.</span></span></div><div class="role"><span class="nom">Designer<em>48 lines</em></span><span class="fait">Merged into the tester: the role that <em>looks</em> at the game should be the one that judges it.</span></div></div>
+  <div class="roles"><div class="role"><span class="nom">Architect<em>1,801 lines</em></span><span class="fait">Writes a numbered plan: budgets, geometry, state machine, depth layout.<span class="refus">Edits no source file. Ever.</span></span></div><div class="role"><span class="nom">Coder<em>848 lines</em></span><span class="fait">Implements that plan one step at a time, building between each.<span class="refus">With no plan, sends the work back to the architect.</span></span></div><div class="role"><span class="nom">Tester<em>320 lines</em></span><span class="fait">Measures, then <em>looks</em> at magnified sprites and captures, and returns PASS / FAIL / NOT OBSERVED.<span class="refus">Fixes nothing. Judge and defendant do not mix.</span></span></div><div class="role"><span class="nom">Loop<em>819 lines</em></span><span class="fait">Runs the four others in sequence, unsupervised, for N passes.<span class="refus">Stops and hands back rather than decide what the game should be.</span></span></div><div class="role"><span class="nom">Build<em>69 lines</em></span><span class="fait">The one canonical way to compile, plus the known failures and their fixes.</span></div><div class="role"><span class="nom">Flash<em>105 lines</em></span><span class="fait">Sends the ROM to the cartridge over USB.<span class="refus">Refuses without a passing verdict newer than the ROM.</span></span></div><div class="role"><span class="nom">Designer<em>48 lines</em></span><span class="fait">Merged into the tester: the role that <em>looks</em> at the game should be the one that judges it.</span></div></div>
   <p>The separation is not bureaucracy. An agent that plans its own work, writes it,
   and then grades it is grading its own homework &mdash; and it passes, every time.
   Splitting the roles is what makes a <em>no</em> possible.</p>
@@ -383,9 +383,9 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
   &rarr; verdict. Then either commit, or return to the plan with the reason.</p>
   <p>The plan lives in a single file that is <em>rewritten</em>, never appended
   &mdash; there is one current plan, and the history shows it replaced
-  <strong>278 times</strong>. The verdict lives in another, replaced
-  <strong>96 times</strong>. Work is grouped into lettered batches:
-  <strong>492 batch commits</strong> across <strong>68 campaigns</strong>, the busiest
+  <strong>340 times</strong>. The verdict lives in another, replaced
+  <strong>130 times</strong>. Work is grouped into lettered batches:
+  <strong>621 batch commits</strong> across <strong>111 campaigns</strong>, the busiest
   day carrying <strong>101</strong>.</p>
   <p>The gate is mechanical, not a matter of discipline. The flashing script reads the
   verdict file and <strong>refuses to send a ROM to the console</strong> unless a
@@ -394,10 +394,10 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
 </div></section>
 
 <section><div class="narrow">
-  <h2><span class="num">05</span>92 notes, 86 of them about being wrong</h2>
+  <h2><span class="num">05</span>98 notes, 89 of them about being wrong</h2>
   <p>The project keeps a memory: one file per lesson, written when something went
-  wrong badly enough to be worth never repeating. There are <strong>92</strong>.
-  <strong>86</strong> record a failure. They are specific, and they are not
+  wrong badly enough to be worth never repeating. There are <strong>98</strong>.
+  <strong>89</strong> record a failure. They are specific, and they are not
   flattering:</p>
   <div class="lecon">
     <p><strong>A lock that always passed green.</strong> A verification rule whose
@@ -433,8 +433,8 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
     against.</p>
     <p style="margin-bottom:0">What the record does support is narrower and, we think,
     more interesting: <strong>the part of the work that grew was not the writing
-    &mdash; it was the checking.</strong> 28,166 lines of C and 430 generated asset files
-    are a large but ordinary amount of code for four months. 69,351 verification frames
+    &mdash; it was the checking.</strong> 34,663 lines of C and 483 generated asset files
+    are a large but ordinary amount of code for four months. 77,790 verification frames
     are not ordinary at all. That is where the leverage went.</p>
   </div>
 </div></section>
@@ -444,7 +444,7 @@ ul.notes>li.fix::before{background:var(--vif);height:2px}
   <p>The Virtual Boy is a 1995 console with a red LED display you press your face
   into. No emulator reproduces how it actually feels &mdash; the flicker, the depth,
   whether a ball stays readable as it crosses a bright wall.</p>
-  <p>So <strong>100 times</strong>, the record shows the ROM leaving the computer for a
+  <p>So <strong>118 times</strong>, the record shows the ROM leaving the computer for a
   real cartridge. Someone unplugged it, carried it to the console, put their face in
   the visor, and played. Every verdict that mattered came back from there.</p>
   <p class="appui">Made with machines. Decided by a person.</p>

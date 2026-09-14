@@ -1,9 +1,9 @@
 [
   {
-    "version": "V1.04",
+    "version": "V1.08",
     "fichier": "virtual-breakout.vb",
     "octets": 2097152,
-    "md5": "9b4473a09ad191c8a8af10344fdc9442",
+    "md5": "dad51c8a5eb23499639286f595f771fc",
     "libelle": "current"
   },
   {
@@ -11,6 +11,13 @@
     "fichier": "virtual-breakout-v1.0.vb",
     "octets": 1048576,
     "md5": "8117cb372d0a9fdbafdfa3b4fa685ddd",
+    "libelle": "previous release"
+  },
+  {
+    "version": "V1.04",
+    "fichier": "virtual-breakout-v1.04.vb",
+    "octets": 2097152,
+    "md5": "9b4473a09ad191c8a8af10344fdc9442",
     "libelle": "previous release"
   }
 ]

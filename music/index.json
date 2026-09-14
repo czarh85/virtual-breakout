@@ -10,8 +10,36 @@
   "approchees": [
    "glocken"
   ],
-  "rms": 12085.816928925926,
+  "rms": 12120.09077621688,
+  "niveaux": 5
+ },
+ {
+  "cle": "TitleThemeTenue",
+  "titre": "Title Theme (Landing)",
+  "sous": "The title screen, second variation",
+  "fichier": "title-theme-landing.mp3",
+  "secondes": 81.92,
+  "octets": 1967376,
+  "voix": 2,
+  "approchees": [
+   "glocken"
+  ],
+  "rms": 12146.588710354288,
   "niveaux": 4
+ },
+ {
+  "cle": "TitleThemeOrgue",
+  "titre": "Title Theme (Wide)",
+  "sous": "The title screen, third variation",
+  "fichier": "title-theme-wide.mp3",
+  "secondes": 81.92,
+  "octets": 1967376,
+  "voix": 2,
+  "approchees": [
+   "glocken"
+  ],
+  "rms": 12112.600889477659,
+  "niveaux": 5
  },
  {
   "cle": "ArmoryTheme",
@@ -112,5 +140,31 @@
   ],
   "rms": 11579.484485105275,
   "niveaux": 3
+ },
+ {
+  "cle": "RankingTheme",
+  "titre": "Afterglow",
+  "sous": "Entering your name in the high scores",
+  "fichier": "afterglow.mp3",
+  "secondes": 84.48,
+  "octets": 2028816,
+  "voix": 2,
+  "approchees": [],
+  "rms": 15830.795575839871,
+  "niveaux": 34
+ },
+ {
+  "cle": "CustomCampaignTheme",
+  "titre": "Neon Arp",
+  "sous": "Your own stages, from the level editor",
+  "fichier": "neon-arp.mp3",
+  "secondes": 76.8,
+  "octets": 1844496,
+  "voix": 3,
+  "approchees": [
+   "organ"
+  ],
+  "rms": 10091.4226637904,
+  "niveaux": 31
  }
 ]
